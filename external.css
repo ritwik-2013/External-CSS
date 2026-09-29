@@ -1,0 +1,71 @@
+body {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-image: radial-gradient(circle, white 2px,transparent 3px);
+    background-size: 40px 40px;
+    background-repeat: repeat;
+    background-position: top center;
+     background-attachment: fixed;
+     color: white;
+     text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color:white
+}
+
+.subtitle {
+    font-size: 18px;
+    color:white
+}
+
+.weather-card {
+    width: 400px;
+    border: 3px; solid white;
+    background-image: linear-gradient(to bottom right,blue,darkblue)
+}
+
+.weather-icon {
+    font-size: 70px;
+    animation: floatcloud 3s infinite alternate;
+}
+
+#temperature {
+    font-weight: bold;
+    color: blue;
+}
+
+.details {
+    font-size: 18px;
+    color: aqua;
+}
+
+.forecast-title {
+    font-size: 20px;
+    color: aqua;
+    text-shadow: #add8e6;
+}
+
+.forecast-section {
+    width: 600px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-image: radial-gradient(circle,white #e8eef0);
+    color:#17b717
+}
+
+h2,h3 {
+    color:white
+}
+
+@keyframes float cloud {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
